@@ -1,0 +1,17 @@
+{
+    "name": "carlosreig/key-value-static-container",
+    "description": "Super basic key/value static container. The goal is to be able to store values that will be reused in the same request.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Carlos Reig",
+            "email": "carlosreigmatut@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "KeyValueContainer\\": "src"
+        }
+    }
+}
